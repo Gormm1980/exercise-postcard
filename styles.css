@@ -1,0 +1,79 @@
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	height: 350px;
+	width: 515px;
+	margin: auto;
+}
+
+.postcard-header {
+	background: white;
+	height: 100px;
+	width: 500px;
+	display: flex;
+	margin: none;
+}
+h1 {
+	position: initial;
+	text-align: center;
+	font-family: "Akaya Telivigala", cursive;
+	font-size: 50px;
+	height: 50px;
+	width: 515px;
+}
+.postcard-body {
+	display: flex;
+	background: white;
+	height: 200px;
+	width: 515px;
+	margin: none;
+}
+.body-left {
+	background: white;
+	font-family: "Akaya Telivigala", cursive;
+	font-style: italic;
+	font-size: initial;
+	margin: auto;
+	font-size: 20px;
+	height: 275px;
+	width: 275px;
+}
+p {
+	margin: 10px;
+}
+.body-right {
+	background: white;
+	font-family: "Akaya Telivigala", cursive;
+	font-style: italic;
+	font-size: 30px;
+	text-align: left;
+	text-decoration-line: underline;
+	color: grey;
+	line-height: 50px;
+
+	height: 275px;
+	width: 275px;
+}
+
+.postcard-footer {
+	background: white;
+	height: 60px;
+	width: 515px;
+	margin: auto;
+	font-family: "Times New Roman", Times, serif;
+	position: relative;
+	text-align: center;
+	font-size: 10px;
+}
+
+p.box {
+	width: 130px;
+	height: 50px;
+	margin: auto;
+	padding: initial;
+	box-align: center;
+	background-color: grey;
+	color: #000;
+}
